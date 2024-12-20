@@ -1,16 +1,20 @@
-# tilt_gradient_app
+# Tilt Gradient App
 
-A new Flutter project.
+A Flutter app that displays a dynamic gradient effect that responds to the device's tilt. The background gradient changes as you tilt the device, providing an interactive and visually appealing experience.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Dynamic Gradient**: The app uses device tilt to adjust the gradient background, creating a fluid and interactive effect.
+- **Sensor Integration**: Utilizes the `sensors_plus` package to access the device's accelerometer and gyroscope for tilt detection.
+- **Cross-Platform**: Works on both Android and iOS devices.
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK 3.0.0 or above
+- A device with a tilt sensor (accelerometer/gyroscope)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/DamilareAde/tilt-gradient-app.git
